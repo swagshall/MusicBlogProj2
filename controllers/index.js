@@ -11,6 +11,6 @@ const { route } = require('./home-routes.js');
 router.use('/', homeRoutes);
 router.use('/dashboard', dashboardRoutes);
 router.use('/api', apiRoutes);
-route.use('/lyricRoutes', lyricRoutes);
+router.use('/lyric', lyricRoutes);
 
 module.exports = router;

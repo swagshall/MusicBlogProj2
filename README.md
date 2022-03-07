@@ -1,183 +1,37 @@
 # MusicBlogProj2
 
-Project Requirements
-You and your group will use everything you’ve learned over the past six units to create a real-world full-stack application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
+## The Lyric Journal
+```
+The Lyric Journal is a music blog that not only allows users to discuss and comment on the latest songs and news. It also allows users to create and comment on their own or others lyrics. 
+```
 
+## User Story
+```
+As an every day music listener and budding artist
+I want to be able to blog and comment on the lates music and news
+So that I can better understand and be updated on the latest music, and work on my own music and lyrics
+```
+## Link
+Visit our website at: https://github.com/swagshall/MusicBlogProj2
+For our code follow this link: https://musicblogproj2.herokuapp.com/
 
-Use Node.js and Express.js to create a RESTful API.
+## Technologies used
+GitHub, Heroku, VS code, MySQL, Sequelize, Encrypt, Dotenv, HTML, CSS, Bootstrap, JavaScript, Express, Handlebars, MySQL2
 
 
-Use Handlebars.js as the template engine.
+## Mock-Up
+<!-- <img src=".\assets\imgs\GoodAppleWireframe.png" alt="screenshot of wireframe">
+<!-- <img src=".\assets\imgs\goodAppleLogo1.jpg" alt="logo"> -->
+<!-- <img src=".\assets\imgs\goodApplesScreenShot1.png" alt="screenshot of website">
+<img src=".\assets\imgs\goodAppleCardScreenShot.png" alt="screenshot of product card">  -->
 
 
-Use MySQL as your Database/single Source of Truth
 
 
-DO NOT use writeFile/readFile to write to JSON files
+## Contact info
+For questions, comments, and contributions please contact us:
 
-
-Use MySQL2 package OR Sequelize ORM to write to the database.
-
-
-Have both GET and POST routes for retrieving and adding new data.
-
-
-Use at least one new library, package, or technology that we haven’t discussed.
-
-
-Have a folder structure that meets the MVC paradigm.
-
-
-Include authentication (express-session and cookies). (Other suggestions are Passport.js which allow Github, Facebook, Gmail login etc)
-
-
-Protect API keys and sensitive information with environment variables.
-
-
-Be deployed using Heroku (with data).
-
-
-Have a polished UI.
-
-
-Be responsive.
-
-
-Be interactive (i.e., accept and respond to user input).
-
-
-Meet good-quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
-
-
-Have a professional README (with unique name, description, technologies used, screenshot, and link to deployed application).
-
-
-
-Presentation Requirements
-Use this project presentation template to address the following:
-
-
-Elevator pitch: a one minute description of your application
-
-
-Concept: What is your user story? What was your motivation for development?
-
-
-Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
-
-
-Demo: Show your stuff!
-
-
-Directions for Future Development
-
-
-Links to the deployed application and the GitHub repository. Use the Guide to Deploy with Heroku and MySQL on The Full-Stack Blog if you need a reminder on how to deploy to Heroku.
-
-
-
-Grading Requirements
-This project is graded based on the following criteria:
-
-Technical Acceptance Criteria: 25%
-
-
-Satisfies the following code requirements:
-
-
-Application uses a Node.js and Express.js back end and uses both GET and POST routes for retrieving and adding new data.
-
-
-Application has a folder structure that meets the MVC paradigm and uses Handlebars.js as the template engine.
-
-
-Application is backed by a MySQL database with a Sequelize ORM and protects API keys and sensitive information with environment variables.
-
-
-Application includes user authentication (express-session and cookies).
-
-
-Application uses at least one new library, package, or technology not covered in class.
-
-
-
-
-
-Concept 10%
-
-
-Application should be a unique and novel idea.
-
-
-Your group should clearly and concisely articulate your project idea.
-
-
-
-Deployment: 20%
-
-
-Application deployed at live URL on Heroku and loads with no errors.
-
-
-Application GitHub URL submitted.
-
-
-
-Repository Quality: 10%
-
-
-Repository has a unique name.
-
-
-Repository follows best practices for file structure and naming conventions.
-
-
-Repository follows best practices for class/id-naming conventions, indentation, quality comments, etc.
-
-
-Repository contains multiple descriptive commit messages.
-
-
-Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-
-Application Quality: 15%
-
-
-Application user experience is intuitive and easy to navigate.
-
-
-Application user interface style is clean and polished.
-
-
-Application is responsive.
-
-
-
-Presentation 10%
-
-
-Your group should present using Powerpoint or a similar presentation software.
-
-
-Every group member should speak during the presentation.
-
-
-Your presentation should follow the Project Presentation Template.
-
-
-
-Collaboration 10%
-
-There are no major disparities in the number of GitHub contributions between group members.
-
-
-How to Submit Your Interactive Full-Stack Project
-Each member of your group is required to submit the following for review:
-
-
-The URL of the deployed application.
-
-
-The URL of the GitHub repository, with a unique name and a README describing the project.
+<a href="https://github.com/AhMeDMuEEd"> Ahmed Mueed,  </a>
+<a href="https://github.com/AlexisGeorgiades"> Alexis Georgiades,   </a>
+<a href="https://github.com/fharuna">  Fati Haruna,   </a>
+<a href="https://github.com/swagshall"> Shifra Wagshall </a> 

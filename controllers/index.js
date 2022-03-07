@@ -3,14 +3,12 @@ const router = require('express').Router();
 const apiRoutes = require('./api/');
 const homeRoutes = require('./home-routes.js');
 const dashboardRoutes = require('./dashboard-routes.js');
-const lyricRoutes = require('./lyric-routes.js');
-const { route } = require('./home-routes.js');
-
+const lyricsRoutes = require('./lyrics-routes.js');
 
 
 router.use('/', homeRoutes);
 router.use('/dashboard', dashboardRoutes);
 router.use('/api', apiRoutes);
-router.use('/lyric', lyricRoutes);
+router.use('/lyrics', lyricsRoutes);
 
 module.exports = router;

@@ -1,9 +1,9 @@
 :root {
-  --primary: #ccdad1;
-  --secondary: #9caea9;
-  --tertiary: #788585;
-  --light-dark: #6f6866;
-  --dark: #38302e;
+  --primary: #01220b;
+  --secondary: #49d31f;
+  --tertiary: #daf10b;
+  --light-dark: #bfc206;
+  --dark: #598507;
   --border-radius: 0.3rem;
 }
 
@@ -15,8 +15,8 @@ body {
   background-color: var(--primary);
   margin: 0;
   padding: 0;
-  font-family: "IBM Plex Sans", sans-serif;
-  color: var(--dark);
+  font-family: "Garamond", serif;
+  color: var(--tertiary);
   line-height: 1.5;
   font-size: 16px;
 }
@@ -104,7 +104,9 @@ input {
 .navbar {
   width: 100%;
   position: fixed;
-  background-color: var(--dark);
+  left: 55%;
+  background-color: transparent;
+  
 }
 
 .nav-item {
@@ -112,13 +114,15 @@ input {
 }
 
 .nav-item a {
-  color: var(--primary);
+  color: var(--light-dark);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .hero {
   padding: 3% 4%;
   background-color: var(--dark);
   color: var(--primary);
+
 }
 
 .hero p {
@@ -155,6 +159,7 @@ input {
 .list-item:hover {
   background-color: var(--dark);
 }
+
 
 .footer a {
   display: inline-block;

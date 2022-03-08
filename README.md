@@ -20,10 +20,11 @@ GitHub, Heroku, VS code, MySQL, Sequelize, Encrypt, Dotenv, HTML, CSS, Bootstrap
 
 
 ## Mock-Up
-<!-- <img src=".\assets\imgs\GoodAppleWireframe.png" alt="screenshot of wireframe">
-<!-- <img src=".\assets\imgs\goodAppleLogo1.jpg" alt="logo"> -->
-<!-- <img src=".\assets\imgs\goodApplesScreenShot1.png" alt="screenshot of website">
-<img src=".\assets\imgs\goodAppleCardScreenShot.png" alt="screenshot of product card">  -->
+<img src="pictures\wireframProj2.png" alt="screenshot of wireframe">
+<img src="pictures\dbLayputProj2.png" alt="ERD"> 
+<img src="pictures\musicblogPic1.png" alt="screenshot of website 1">
+<img src="pictures\musicblogPic2.png" alt="screenshot of website 2">  
+<img src="pictures\musicblogPic3.png" alt="screenshot of website 2">
 
 
 

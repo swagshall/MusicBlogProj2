@@ -182,7 +182,7 @@ input {
 
 .hero {
   padding: 3% 4%;
-background-image: url('https://th.bing.com/th/id/R.860c922c7e22b4fff78b15285a0dc35c?rik=2RKdate0pqx5Kw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f130000%2fvelka%2fpurple-marble-background.jpg&ehk=JoKTzrwEfMl4w1ZSA5CbeprrNc1oKCopfe5zaAqGj4c%3d&risl=&pid=ImgRaw&r=0');
+  background-image: url('https://th.bing.com/th/id/R.860c922c7e22b4fff78b15285a0dc35c?rik=2RKdate0pqx5Kw&riu=http%3a%2f%2fwww.publicdomainpictures.net%2fpictures%2f130000%2fvelka%2fpurple-marble-background.jpg&ehk=JoKTzrwEfMl4w1ZSA5CbeprrNc1oKCopfe5zaAqGj4c%3d&risl=&pid=ImgRaw&r=0');
   color: var(--primary);
   display: flex;
   justify-content: center;
@@ -196,11 +196,11 @@ background-image: url('https://th.bing.com/th/id/R.860c922c7e22b4fff78b15285a0dc
 .app-title {
   font-size: 3rem;
   background-color: var(--primary);
-  color: white;
-  padding: 0 10px;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 0px 2px 2px rgba(125,56,122,0);
+  color: #FFFFFF;
+  background: #333333;  padding: 0 10px;
   display:block;
   border-radius: var(--border-radius);
-  box-shadow: 6px 5px var(--light-dark);
 }
 
 .app-title a {

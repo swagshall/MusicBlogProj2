@@ -10,6 +10,12 @@
 
 * {
   box-sizing: border-box;
+
+}
+
+.allPosts {
+
+  width: 100%;
 }
 
 body {
@@ -42,7 +48,7 @@ h2 a:visited {
 }
 
 h2 a {
-  color: var(--primary);
+  color: white;
 }
 
 header {
@@ -96,16 +102,17 @@ input {
   margin: 5px 0;
   border-radius: var(--border-radius);
   color: var(--primary);
-  border: none;
+  border: solid 2px black;
   outline: none;
-  background-color: var(--light-dark);
+  background-color: white;
   box-shadow: 3px 3px var(--dark);
   transform: translate(-1px, -1px);
 }
 
 .btn:hover {
   color: var(--primary);
-  background-color: var(--tertiary);
+  background-color: teal;
+  color:white;
   transform: translate(0, 0);
   box-shadow: 2px 2px var(--dark);
 }
@@ -238,10 +245,11 @@ footer {
 }
 
 .card-header {
-  color: var(--primary);
+  color: white;
   background-color: var(--dark);
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+  font-size: 22px;
 }
 
 .card-body {

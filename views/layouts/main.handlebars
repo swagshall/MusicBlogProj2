@@ -19,7 +19,7 @@
       <li class="li-inline nav-item"><a href="/dashboard">Dashboard</a></li>
       <li class="li-inline nav-item"><a href="/login">Login</a></li>
       <li class="li-inline nav-item"><a href="#" id="logout-link">Logout</a></li>
-       <li class="li-inline nav-item"><a href="/lyric" id="lyricEditor"><span>Lyric Editor</span> </a></li>
+       <li class="li-inline nav-item"><a href="/lyrics" id="lyricEditor"><span>Lyric Editor</span> </a></li>
        
 
     </ul>
@@ -32,11 +32,17 @@
 
 
   <main class="container">
-
+<div class="allPosts">
         {{{body}}}
 
 
- 
+ </div>
+
+ <div class="newsSearch">
+        {{news}}
+
+
+ </div>
 
 
   </main>
@@ -44,7 +50,8 @@
   <footer class="flex-row justify-center">
     &copy; <h2>The Lyric Journal </h2>
   </footer>
+  <script src="/js/logout.js"></script>
+
 </body>
 
 </html>
-<script src="/js/logout.js"></script>
